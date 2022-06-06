@@ -3,18 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>form</title>
+  <style>
+    div, form {
+      border: 2px solid black;
+    }
+  </style>
 </head>
 <body>
 <form>
   <input type="text" placeholder="email address" mail="Email"><br>
   <input type="password" placeholder="your password" password="password"><br>
-  <input type="upload" placeholder="photos" upload="upload"><br>
   <input type="submit">
 </form>
 <div>
   <input type="country" list="countries" placeholder="country">
   <datalist id="countries">
-    <select id="country" name="country">
     <select id="country" name="country">
     <option>select country</option>
     <option value="AF">Afghanistan</option>
@@ -271,6 +274,32 @@
     <option value="ZW">Zimbabwe</option>
 </select>
   </datalist>
+</div>
+
+<div>
+  <option>select photo</option>
+    <select id="photo" name="photo">
+
+      <option value="img"><img src="149.jpg" width="200" height="100"></option>
+      <option value="img"><img src="150.jpg" width="200" height="100"></option>
+      <option value="img"><img src="149.jpg" width="200" height="100"></option>
+      <option value="img"><img src="150.jpg" width="200" height="100"></option>
+     <option value="img"><img src="149.jpg" width="200" height="100"></option>
+     <option value="img"><img src="150.jpg" width="200" height="100"></option>
+     <option value="img"><img src="151.jpg" width="200" height="100"></option>
+     <option value="img"><img src="149.jpg" width="200" height="100"></option>
+     <option value="img"><img src="151.jpg" width="200" height="100"></option>
+     <option value="img"><img src="149.jpg" width="200" height="100"></option>
+     <option value="img"><img src="151.jpg" width="200" height="100"></option>
+     <option value="img"><img src="149.jpg" width="200" height="100"></option>
+     <option value="img"><img src="151.jpg" width="200" height="100"></option>
+      <option value="img"><img src="149.jpg" width="200" height="100"></option>
+
+
+
+
+
+    </select>
 </div>
 
 </body>
